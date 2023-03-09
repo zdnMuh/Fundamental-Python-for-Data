@@ -1,0 +1,75 @@
+Python bersifat general-purpose programming, karena memiliki fungsi yang banyak sebagai
+penegembangan aplikasi web ataupun mobile, data science, dll.
+Pythin termasuk high-level programming language karena bahasanya mudah dimengerti dan
+mudah dituliskan oleh manusia.
+Python ditemukan oleh Guido van Rossum pada tahun 1991
+
+Aturan variabel:
+1. tidak boleh dimulai dengan angka namun underscore boleh
+2. case sensitive
+
+Comment:
+1. satu baris -> #
+2. banyak baris -> '''
+
+Variabel str:
+1. list -> menggunakan kurung siku
+2. tuple -> menggunakan kurung biasa
+3. set -> menggunakan kurawal dan sifat karakternya unik
+
+Cara import library menggunakan perintah import nama_library atau import nama_library
+as alias.
+
+Python mengakhiri perintah menggunakan baris baru, tidak seperti bahasa lainnya
+menggunakan titik koma (;).
+
+Percabangan IF, ELIF, ELSE. ElIF adalah singkatan dari else if.
+Struktur percabangan if sangat mudah pada python:
+i=3
+if(i==5):
+	print("ini adalah angka 5")
+elif(i>5):
+	print("lebih besar dari 5")
+else:
+	print("lebih kecil dari 5")
+
+Ingat python selalu ada indentasi, jadi saat melakukan penulisan program diharuskan spasi/tab.
+
+print("Luas segitiga: %f" % luas)
+-- %f sebagai palceholder dengan tipe data float dan variabel luas akan mengisi
+
+Fungsi yang tidak mengembalikan nilai biasanya disebut dengan prosedur.
+
+Umumnya modul dikembangkan untuk tujuan umum yang luas penerapannya seperti:
+-> untuk pengolah data numerik seperti array 1D, 2D, 3D atau hingga nD dengan contohnya 	adalah numpy
+-> untuk komputasi saintifik yang berbasis metode numerik dan statistik dengan 	contohnya adalah scipy dan statsmodel
+-> untuk pengolah dan analisis data seperti Microsoft Excel atau Google Spreadsheets 	dengan contohnya adalah pandas, pypolar, dan modin
+-> untuk visualisasi data dengan contohnya yaitu matplotlib, seaborn, plotnine, altair, 	mayavi, bokeh, plotly, dll.  
+-> untuk pembelajaran mesin dengan contohnya yaitu scikit-learn, xgboost, lightgbm, 	catboost, pycaret, dll
+-> untuk deep learning dengan contohnya adalah keras, tensorflow, pytorch, cafe, dll
+
+Kita dapat mengimport beberapa modul yang dibutuhkan saja menggunakan format from module_name import function_name:
+from math import pi
+print("Nilai pi adalah", pi)
+
+semisal lebih dari 10 atau bahkan ratusan fungsi, bisa dilakukan import semuanya dengan menggunakan format from module_name import *:
+from math import *
+print("Nilai e adalah:", e)
+
+Hasil bacaan file .csv akan ditampilkan dalam bentuk list pada python
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
