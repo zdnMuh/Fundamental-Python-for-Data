@@ -34,5 +34,32 @@ print(contoh_list[3])
 
 contoh_tuple = ('januari', 'februari', 'maret', 'april')
 print(contoh_tuple[0])
-contoh_tuple[0] = 'desember'
+# contoh_tuple[0] = 'desember'
 print(contoh_tuple[0])
+
+contoh_list = ['dewi', 'budi', 'cici', 'linda', 'cici']
+print(contoh_list)
+contoh_set = {'dewi', 'budi', 'cici', 'linda', 'cici'}
+print(contoh_set)
+contoh_frozen_set = frozenset({'dewi', 'budi', 'cici', 'linda', 'cici'})
+print(contoh_frozen_set)
+
+person = {'nama': 'John Doe', 'pekerjaan': 'Programmer'}
+print(person['nama'])
+print(person['pekerjaan'])
+
+sepatu = {'nama': 'Sepatu Niko', 'harga': 150000, 'diskon': 30000}
+baju = {'nama': 'Baju Unikloh', 'harga': 80000, 'diskon': 8000}
+celana = {'nama': 'Celana Lepis', 'harga': 200000, 'diskon': 60000}
+daftar_belanja = [sepatu, baju, celana]
+
+# Hitung harga masing-masing data setelah dikurangi diskon
+harga_sepatu = sepatu['harga'] - sepatu['diskon']
+harga_baju = baju['harga'] - baju['diskon']
+harga_celana = celana['harga'] - celana['diskon']
+# Hitung harga total
+total_harga = harga_sepatu + harga_baju + harga_celana
+# Hitung harga kena pajak
+total_harga_dengan_pajak = total_harga * 1.1
+# Cetak total_harga + total_pajak
+print(total_harga + total_harga_dengan_pajak)

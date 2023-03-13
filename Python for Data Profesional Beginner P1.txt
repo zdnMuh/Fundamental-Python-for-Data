@@ -1,8 +1,1 @@
-Fungsi head pada library pandas biasanya menampilkan 5 teratas
-
-Untuk memeriksa tipe data pada tabel:
-	import pandas as pd
-	csv_data = pd.read_csv("https://storage.googleapis.com/dqlab-dataset/shopping_data.csv")
-	print(csv_data.dtypes)
-
-Fungsi untuk menampilkan data dari suatu baris adalah fungsi .iloc[i]
+Perbedaan list dengan tuple adalah pada perubahana isinya. Pada list kita dapat mengubah isinya(mutable). Sedangkan, tuple tidak bisa merubah isinya(immutable).
