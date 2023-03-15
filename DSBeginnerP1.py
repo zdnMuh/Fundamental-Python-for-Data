@@ -1,30 +1,28 @@
-"""
-print("Hello World!")
+# print("Hello World!")
 
-print("Hallo Dunia!")
-print("Riset Bahasa Python")
+# print("Hallo Dunia!")
+# print("Riset Bahasa Python")
 
-# Statement
-print("Belajar Python menyenangkan")
-print("Halo Dunia")
-print("Hello World!")
-# Variables & Literals
-bilangan1 = 5
-bilangan2 = 10
-kalimat1 = "Belajar Bahasa Python"
-# Operators
-print(bilangan1 + bilangan2)
+# # Statement
+# print("Belajar Python menyenangkan")
+# print("Halo Dunia")
+# print("Hello World!")
+# # Variables & Literals
+# bilangan1 = 5
+# bilangan2 = 10
+# kalimat1 = "Belajar Bahasa Python"
+# # Operators
+# print(bilangan1 + bilangan2)
 
-bilangan1 = 20
-bilangan2 = 10
-print(bilangan1 - bilangan2)
+# bilangan1 = 20
+# bilangan2 = 10
+# print(bilangan1 - bilangan2)
 
-harga_asli = 20000
-potongan = 2000
-harga_setelah_potongan = harga_asli - potongan
-harga_final = harga_setelah_potongan*1.1
-print(harga_final)
-"""
+# harga_asli = 20000
+# potongan = 2000
+# harga_setelah_potongan = harga_asli - potongan
+# harga_final = harga_setelah_potongan*1.1
+# print(harga_final)
 
 # contoh_list = [1, 'dua', 3, 4.0, 5]
 # print(contoh_list[0])
@@ -96,113 +94,128 @@ print(harga_final)
 # print(total_harga)
 
 # statement if... elif... else...
-x = 7
-if x%2 == 0:
-    print("x habis dibagi dua")
-elif x%3 == 0:
-    print("x habis dibagi tiga")
-elif x%5 == 0:
-    print("x habis dibagi lima")
-else:
-    print("x tidak habis dibagi dua, tiga, ataupun lima")
+# x = 7
+# if x%2 == 0:
+#     print("x habis dibagi dua")
+# elif x%3 == 0:
+#     print("x habis dibagi tiga")
+# elif x%5 == 0:
+#     print("x habis dibagi lima")
+# else:
+#     print("x tidak habis dibagi dua, tiga, ataupun lima")
 
-jam = 13
-if jam >= 5 and jam < 12:
-    print("Selamat Pagi")
-elif jam >= 12 and jam < 17:
-    print("Selamat Siang")
-elif jam >= 17 and jam < 19:
-    print("Selamat Sore")
-else:
-    print("Selamat Malam")
+# jam = 13
+# if jam >= 5 and jam < 12:
+#     print("Selamat Pagi")
+# elif jam >= 12 and jam < 17:
+#     print("Selamat Siang")
+# elif jam >= 17 and jam < 19:
+#     print("Selamat Sore")
+# else:
+#     print("Selamat Malam")
 
-jam = 17
-tagihan_ke = 'Mr. Yoyo'
-warehousing = {'harga_harian': 1000000, 'total_hari': 15}
-cleansing = {'harga_harian': 1500000, 'total_hari': 10}
-integration = {'harga_harian': 2000000, 'total_hari': 15}
-transformation = {'harga_harian': 2500000, 'total_hari': 10}
-sub_warehousing = warehousing['harga_harian'] * warehousing['total_hari']
-sub_cleansing = cleansing['harga_harian'] * cleansing['total_hari']
-sub_integration = integration['harga_harian'] * integration['total_hari']
-sub_transformation = transformation['harga_harian'] * transformation['total_hari']
-total_harga = sub_warehousing + sub_cleansing + sub_integration + sub_transformation
-print("Tagihan kepada:") 
-print(tagihan_ke)
-if jam > 19:
-    print("Selamat malam, anda harus membayar tagihan sebesar:")
-elif jam > 17:
-    print("Selamat sore, anda harus membayar tagihan sebesar:")
-elif jam >12:
-    print("Selamat siang, anda harus membayar tagihan sebesar:")
-else:
-    print("Selamat pagi, anda harus membayar tagihan sebesar:")
-print(total_harga)
+# jam = 17
+# tagihan_ke = 'Mr. Yoyo'
+# warehousing = {'harga_harian': 1000000, 'total_hari': 15}
+# cleansing = {'harga_harian': 1500000, 'total_hari': 10}
+# integration = {'harga_harian': 2000000, 'total_hari': 15}
+# transformation = {'harga_harian': 2500000, 'total_hari': 10}
+# sub_warehousing = warehousing['harga_harian'] * warehousing['total_hari']
+# sub_cleansing = cleansing['harga_harian'] * cleansing['total_hari']
+# sub_integration = integration['harga_harian'] * integration['total_hari']
+# sub_transformation = transformation['harga_harian'] * transformation['total_hari']
+# total_harga = sub_warehousing + sub_cleansing + sub_integration + sub_transformation
+# print("Tagihan kepada:") 
+# print(tagihan_ke)
+# if jam > 19:
+#     print("Selamat malam, anda harus membayar tagihan sebesar:")
+# elif jam > 17:
+#     print("Selamat sore, anda harus membayar tagihan sebesar:")
+# elif jam >12:
+#     print("Selamat siang, anda harus membayar tagihan sebesar:")
+# else:
+#     print("Selamat pagi, anda harus membayar tagihan sebesar:")
+# print(total_harga)
 
-tagihan=[50000, 75000, 125000, 300000, 120000]
-total_tagihan=tagihan[0]+tagihan[1]+tagihan[2]+tagihan[3]+tagihan[4]
-i=0
-jumlah_tagihan=len(tagihan)
-total_tagihan=0
-while i<jumlah_tagihan:
-    total_tagihan+=tagihan[i]
-    i+=1
-print(total_tagihan)
-print(len(tagihan))
+# tagihan=[50000, 75000, 125000, 300000, 120000]
+# total_tagihan=tagihan[0]+tagihan[1]+tagihan[2]+tagihan[3]+tagihan[4]
+# i=0
+# jumlah_tagihan=len(tagihan)
+# total_tagihan=0
+# while i<jumlah_tagihan:
+#     total_tagihan+=tagihan[i]
+#     i+=1
+# print(total_tagihan)
+# print(len(tagihan))
 
-tagihan=[50000, 75000, -150000, 125000, 300000, -50000, 200000]
-i=0
-jumlah_tagihan=len(tagihan)
-total_tagihan=0
-while i<jumlah_tagihan:
-    if tagihan[i]<0:
-        total_tagihan=-1
-        print('terdapat angka minus dalam tagihan, perhitungan dihentikan!')
-        break
-    total_tagihan+=tagihan[i]
-    i+=1
-print(total_tagihan)
+# tagihan=[50000, 75000, -150000, 125000, 300000, -50000, 200000]
+# i=0
+# jumlah_tagihan=len(tagihan)
+# total_tagihan=0
+# while i<jumlah_tagihan:
+#     if tagihan[i]<0:
+#         total_tagihan=-1
+#         print('terdapat angka minus dalam tagihan, perhitungan dihentikan!')
+#         break
+#     total_tagihan+=tagihan[i]
+#     i+=1
+# print(total_tagihan)
 
-tagihan=[50000, 75000, -150000, 125000, 300000, -50000, 200000]
-i=0
-jumlah_tagihan=len(tagihan)
-total_tagihan=0
-while i<jumlah_tagihan:
-    if tagihan[i]<0:
-        i+=1
-        continue
-    total_tagihan+=tagihan[i]
-    i+=1
-print(total_tagihan)
+# tagihan=[50000, 75000, -150000, 125000, 300000, -50000, 200000]
+# i=0
+# jumlah_tagihan=len(tagihan)
+# total_tagihan=0
+# while i<jumlah_tagihan:
+#     if tagihan[i]<0:
+#         i+=1
+#         continue
+#     total_tagihan+=tagihan[i]
+#     i+=1
+# print(total_tagihan)
 
-list_tagihan=[50000, 75000, -150000, 125000, 300000, -50000, 200000]
-total_tagihan=0
-for tagihan in list_tagihan:
-    total_tagihan+=tagihan
-print(total_tagihan)
+# list_tagihan=[50000, 75000, -150000, 125000, 300000, -50000, 200000]
+# total_tagihan=0
+# for tagihan in list_tagihan:
+#     total_tagihan+=tagihan
+# print(total_tagihan)
 
-list_tagihan=[50000, 75000, -150000, 125000, 300000, -50000, 200000]
-print('for loops with break')
-total_tagihan_break=0
-for tagihan in list_tagihan:
-    if tagihan<0:
-        print('terdapat angka minus dalam tagihan, perhitungan dihentikan!')
-        break
-    total_tagihan_break+=tagihan
-print('total tagihan %d.' %total_tagihan_break)
-print()
+# list_tagihan=[50000, 75000, -150000, 125000, 300000, -50000, 200000]
+# print('for loops with break')
+# total_tagihan_break=0
+# for tagihan in list_tagihan:
+#     if tagihan<0:
+#         print('terdapat angka minus dalam tagihan, perhitungan dihentikan!')
+#         break
+#     total_tagihan_break+=tagihan
+# print('total tagihan %d.' %total_tagihan_break)
+# print()
 
-print('for loops with continue')
-total_tagihan_continue=0
-for tagihan in list_tagihan:
-    if tagihan<0:
-        print('terdapat angka minus dalam tagihan, tagihan %d dilewati!' %tagihan)
-        continue
-    total_tagihan_continue+=tagihan
-print('total tagihan %d.' %total_tagihan_continue)
+# print('for loops with continue')
+# total_tagihan_continue=0
+# for tagihan in list_tagihan:
+#     if tagihan<0:
+#         print('terdapat angka minus dalam tagihan, tagihan %d dilewati!' %tagihan)
+#         continue
+#     total_tagihan_continue+=tagihan
+# print('total tagihan %d.' %total_tagihan_continue)
 
-list_daerah=['malang', 'palembang', 'medan']
-list_buah=['apel', 'duku', 'jeruk']
-for nama_daerah in list_daerah:
-    for nama_buah in list_buah:
-        print(nama_buah + ' ' + nama_daerah)
+# list_daerah=['malang', 'palembang', 'medan']
+# list_buah=['apel', 'duku', 'jeruk']
+# for nama_daerah in list_daerah:
+#     for nama_buah in list_buah:
+#         print(nama_buah + ' ' + nama_daerah)
+
+# list_cash_flow = [
+# 2500000, 5000000, -1000000, -2500000, 5000000, 10000000,
+# -5000000, 7500000, 10000000, -1500000, 25000000, -2500000
+# ]
+# total_pengeluaran, total_pemasukan =0,0
+# for dana in list_cash_flow:
+#     if dana>0:
+#         total_pemasukan+=dana
+#     else:
+#         total_pengeluaran+=dana
+# total_pengeluaran*=-1
+# print(total_pengeluaran)
+# print(total_pemasukan)
+
