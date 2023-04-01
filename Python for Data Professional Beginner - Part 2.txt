@@ -1,1 +1,1 @@
-Ingat list menggunakan kurung siku [], tuple menggunakan kurung biasa (), tuple meggunakan kurung kurawal{}
+Ingat list menggunakan kurung siku [], tuple menggunakan kurung biasa (), set meggunakan kurung kurawal{}
