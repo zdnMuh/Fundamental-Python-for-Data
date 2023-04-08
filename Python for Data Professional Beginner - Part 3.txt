@@ -1,0 +1,15 @@
+Pada paradigma OOP, struktur dari sebuah program dikemas ke dalam sebuah objek yang memiliki serangkaian properti (properties) dan fungsi (behaviours).
+Sebagai contoh, aku dapat merepresentasikan seorang karyawan.
+-> Seorang karyawan dapat memiliki serangkaian properti seperti nama, usia, keahlian, dll.
+-> Kemudian, seorang karyawan juga dapat memiliki fungsi-fungsi seperti hadir ke kantor, absen, lembur, tugas dinas, dll.
+
+Konsep OO -> DRY - Don’t Repeat Yourself (berlawanan dengan konsep WET - Write Everything Twice).
+Dalam bahasa pemrograman Python, terdapat 3 konsep utama OO yaitu:
+-> Encapsulation: Menyembunyikan sebagian detail yang dimiliki oleh sebuah objek terhadap objek-objek lainnya.
+-> Inheritance: Menurunkan serangkaian fungsi-fungsi yang dimiliki oleh sebuah objek ke sebuah objek baru tanpa mengubah makna dari objek acuan yang digunakan.
+-> Polymorphism: Konsep untuk menggunakan fungsi-fungsi dengan nama/tujuan yang sama dengan cara yang berbeda.
+
+Dalam sebuah class, aku dapat mendefinisikan dua jenis atribut yaitu:
+-> Class Attribute adalah properti/atribut yang bernilai sama untuk oleh seluruh objek 
+-> Instance Attribute adalah properti/atribut yang nilainya berbeda-beda untuk setiap objek dari sebuah class.
+ 
